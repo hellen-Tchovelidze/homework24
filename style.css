@@ -110,6 +110,13 @@ background-size: cover;
 
 
 @media (max-width: 600px) {
+    header{
+        display: flex;
+        padding-top: 20px;
+    }
+    body{
+       overflow: hidden;
+    }
     section{
         max-width: 327px;
 max-height: 92px;
